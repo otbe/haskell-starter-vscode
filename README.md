@@ -9,7 +9,7 @@
     `$ stack install`  
     `$ stack exec hoogle generate`
 5.  Open this repo in VSCode and install recommended extensions (popup in right bottom corner)
-6.  Run  
+6.  CD into this repo and run  
     `$ stack setup`  
     `$ stack build`  
     `$ stack exec haskell-starter-exe`
