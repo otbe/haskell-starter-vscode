@@ -1,5 +1,4 @@
-module Lib
-where
+module Lib where
 
 sayHello :: Maybe String -> String
 sayHello x = case x of
@@ -8,19 +7,3 @@ sayHello x = case x of
 
 someFunc :: IO ()
 someFunc = putStrLn $ sayHello $ Just "Uwe"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

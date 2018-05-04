@@ -15,7 +15,19 @@
 # resolver:
 #  name: custom-snapshot
 #  location: "./custom-snapshot.yaml"
-resolver: lts-11.2
+resolver: lts-11.7
+
+# docker:
+#   enable: true
+#   auto-pull: true
+
+# image:
+#   containers:
+#     - 
+#       base: "fpco/ubuntu-with-libgmp:14.04"
+#       name: "haskell-starter"
+#       entrypoints:
+#         - server
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.

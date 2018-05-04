@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  haskell-starter-exe:
+  server:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -37,7 +37,7 @@ executables:
     - haskell-starter
 
 tests:
-  haskell-starter-test:
+  server-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
